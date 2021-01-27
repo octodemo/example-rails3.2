@@ -39,7 +39,7 @@ jobs:
   # uses: devmasx/brakeman-linter-action@0dc80fcccf87915ccb1761669014015214f36287
         uses: devmasx/brakeman-linter-action@v1.0.0
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}          
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}          
       
       - name: Brakeman action
   # You may pin to the exact commit or the version.
